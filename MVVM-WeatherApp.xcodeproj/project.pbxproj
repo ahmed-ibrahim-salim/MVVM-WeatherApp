@@ -11,6 +11,9 @@
 		EF2FA03B26ABFF9E00F84EF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2FA03A26ABFF9E00F84EF3 /* ContentView.swift */; };
 		EF2FA03D26ABFF9F00F84EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2FA03C26ABFF9F00F84EF3 /* Assets.xcassets */; };
 		EF2FA04026ABFF9F00F84EF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2FA03F26ABFF9F00F84EF3 /* Preview Assets.xcassets */; };
+		EF2FA04D26AC003000F84EF3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2FA04C26AC003000F84EF3 /* Models.swift */; };
+		EF2FA05426AC007B00F84EF3 /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2FA05326AC007B00F84EF3 /* TodayViewModel.swift */; };
+		EF9226BF26ACB39500FC96E7 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9226BE26ACB39500FC96E7 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		EF2FA03C26ABFF9F00F84EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2FA03F26ABFF9F00F84EF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF2FA04126ABFF9F00F84EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2FA04C26AC003000F84EF3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EF2FA05326AC007B00F84EF3 /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		EF9226BE26ACB39500FC96E7 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				EF2FA03C26ABFF9F00F84EF3 /* Assets.xcassets */,
 				EF2FA04126ABFF9F00F84EF3 /* Info.plist */,
 				EF2FA03E26ABFF9F00F84EF3 /* Preview Content */,
+				EF2FA04C26AC003000F84EF3 /* Models.swift */,
+				EF2FA05326AC007B00F84EF3 /* TodayViewModel.swift */,
+				EF9226BE26ACB39500FC96E7 /* WeatherButton.swift */,
 			);
 			path = "MVVM-WeatherApp";
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2FA04D26AC003000F84EF3 /* Models.swift in Sources */,
 				EF2FA03B26ABFF9E00F84EF3 /* ContentView.swift in Sources */,
+				EF9226BF26ACB39500FC96E7 /* WeatherButton.swift in Sources */,
+				EF2FA05426AC007B00F84EF3 /* TodayViewModel.swift in Sources */,
 				EF2FA03926ABFF9E00F84EF3 /* MVVM_WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
